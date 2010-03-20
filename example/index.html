@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>flipfields example</title>
+  <script type="text/javascript" src="../lib/jquery-1.4.1.js"></script>
+  <script type="text/javascript" src="../lib/jquery.flip_fields.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+  $(function() {
+    $('input').flipFields();
+  });
+
+</script>
+<form method="GET" action="">
+  <ul>
+    <li>
+      <input type="text" name="first" value="Some Value"/>
+    </li>
+    <li>
+      <input type="text" name="second" value="Some Other Value"/>
+    </li>
+  </ul>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
